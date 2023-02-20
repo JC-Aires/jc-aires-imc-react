@@ -1,0 +1,11 @@
+
+.table {
+    margin: 0 auto;
+    border: 2px solid var(--corSecundaria);
+    background-color: var(--corPrincipal);
+}
+.table td {
+    padding: 0.5rem 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
