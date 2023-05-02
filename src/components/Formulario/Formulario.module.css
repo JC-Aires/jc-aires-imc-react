@@ -26,6 +26,10 @@ p {
     font-size: 2rem;
     border: 2px solid var(--corSecundaria);
     border-radius: 6px;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 
 button {
@@ -37,8 +41,12 @@ button {
     background-color: var(--corPrincipal);
     cursor: pointer;
     border-radius: 6px;
+
+    @media (max-width: 768px) {
+        font-size: 1rem;
+    }
 }
 
 button:hover {
-    background-color:#03f8e43a;
+    background-color: #03f8e43a;
 }
